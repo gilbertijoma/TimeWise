@@ -3,7 +3,7 @@ reminders efficiently. TimeWise allows users to create reminders with priorities
 notes. Whether you need to remember a meeting, manage your shopping list, or outline a 
 project, TimeWise is here to help you stay organized.
 
-Quick App Guide
+**Quick App Guide**
 
 First simply sign up by clicking the sign up option on the login screen or login with your email 
 and password if you already have an account.
@@ -19,9 +19,9 @@ the inputted date and time.
 To add a new note just simply click on the “+ New note” button and a dialog box will display and 
 ask you enter the title and description of the note.
 
-App Structure
+**App Structure**
 
-MyApplication: Creates the database, notification methods execute on startup.
+MyApplication.java: Creates the database, notification methods execute on startup.
 
 Database:
 - DatabaseContract.kt: Contract class that specifies the layout of the schema
